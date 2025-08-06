@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    margin: 0%;
+}
+
+.link {
+    color: rgb(29, 29, 29);
+    text-decoration: none;
+    padding: 20px;
+    margin: 10px;
+    font-weight: 400;
+    font-size: large;
+    border: 2px white solid;
+    border-radius: 5%;
+    background-color: #ffffff;
+}
+
+.navegador {
+    background-color: #ffcc00;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    transition: 300ms;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.link:hover {
+    color: #ffffff;
+    transition: 300ms;
+    border: 2px rgb(66, 66, 66);
+    background-color: rgb(66, 66, 66);
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.nota-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0;
+}
+#titulo-nota {
+    font-size: 1.5em;
+    color: #333333;
+}
+#desc-nota {
+    font-size: 1em;
+    color: #666666;
+}
+.staff {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: larger;
+}
+
+iframe {
+    width: 90%;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+}

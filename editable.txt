@@ -1,0 +1,5 @@
+<div id="content">
+            <h1 id="titulo-nota">Titulo de la nota</h1>
+            <img src="" alt="Imagen nota" class="nota-img">
+            <p id="desc-nota">Descripción de la nota</p>
+        </div>
