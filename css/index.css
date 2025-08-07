@@ -1,7 +1,7 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0%;
-    background-color: #222222;
+    background-color: #000000;
 }
 
 .link {
@@ -9,11 +9,8 @@ body {
     text-decoration: none;
     padding: 20px;
     margin: 10px;
-    font-weight: 400;
+    font-weight: 800;
     font-size: large;
-    border: 2px white solid;
-    border-radius: 5%;
-    background-color: #ffffff;
 }
 
 .navegador {
@@ -29,8 +26,6 @@ body {
 .link:hover {
     color: #ffffff;
     transition: 300ms;
-    border: 2px rgb(66, 66, 66);
-    background-color: rgb(66, 66, 66);
 }
 
 .logo {
@@ -44,10 +39,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: #202020;
     border-radius: 10px;
     margin: 30px;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 .nota-img {
     width: 100%;
@@ -57,17 +51,19 @@ body {
 }
 #titulo-nota {
     font-size: 1.5em;
-    color: #333333;
+    color: #ffffff;
+    font-weight: lighter;
 }
 #desc-nota {
     font-size: 1em;
-    color: #666666;
+    color: #adadad;
 }
 .staff {
     display: flex;
     flex-direction: row;
     align-items: center;
     font-size: larger;
+    color: #ffffff;
 }
 
 iframe {
@@ -94,4 +90,15 @@ iframe {
         width: 100%;
         height: 350px;
     }
+}
+
+@media (max-width: 1024px) {
+    .link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    margin: 0px;
+    font-size: large;
+    border: none;
+}
 }
